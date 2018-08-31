@@ -27,7 +27,6 @@ server:
 eureka:
   instance:
     hostname: host2
-    preferIpAddress: false
   client:
     serviceUrl:
       defaultZone: http://host1:8761/eureka/
